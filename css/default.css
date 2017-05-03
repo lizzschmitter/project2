@@ -1,0 +1,146 @@
+/* All CSS styles go here */
+
+@font-face {
+    font-family: robotoslabthin;
+    src:url(../fonts/robotoslabthin.ttf);
+}
+
+@font-face {
+    font-family: robotoslablight;
+    src:url(../fonts/robotoslablight.ttf);  
+}
+
+@font-face {
+    font-family: robotoslabregular;
+    src:url(../fonts/robotoslabregular.ttf);
+}
+
+.title {
+    font-family: robotoslabthin;
+    font-weight: thin;
+    text-align: center;
+    line-height: 25px;
+    font-size: 5em;
+    padding-top: 60px;
+    color: #444866;
+}
+
+#header {
+    font-family: robotoslabthin;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 45px;
+    color: #fd4f57;
+}
+
+#nav {
+    width: 520px;
+    height: 20px;
+    position: relative;
+    left: 50%;
+    margin-left: -260px;
+    padding-top: 50px;
+    background-color: white;
+    display: block;
+}
+
+.button {
+    color: #444866;
+    height: 25px;
+    width: 90px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.button:hover {
+    color: white;
+    background-color: #444866;
+    display: block;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.link {
+    display: inline;
+    font-family: robotoslabregular;
+    color: #444866;
+    float: left;
+    margin-left: 15px;
+    padding-top: 5px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+.link:first-child {
+    margin-left: 0px;
+}
+
+#container {
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#mainphoto {
+    width: 600px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+
+#story_container {
+    width: 500px;
+    height: 500px;
+    float: left;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+}
+
+#topstories {
+    font-family: robotoslablight;
+    text-align: left;
+    font-size: .75em;
+    font-size: 1.5em;
+    color: #444866;
+    padding-left: 130px;
+    
+}
+
+#stories {
+    font-family: robotoslabthin;
+    text-align: left;
+    font-size: .85em;
+    line-height: 45px;
+    padding-top: 10px;
+    color: #fd4f57;
+    position: relative;
+    padding-left: 130px;
+}
+
+#related_stories {
+    width: 500px;
+    padding-top: 645px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#top_story {
+    font-family: robotoslablight;
+    text-align: left;
+    font-size: 1.75em;
+    color: #444866;
+    line-height: 35px;
+    padding-top: 550px;
+    height: 50px;
+    width: 600px;
+    letter-spacing: normal;
+}
